@@ -44,5 +44,38 @@ If you use this work in your research, please cite our [ICCV 2023 paper](https:/
 
 ## Code and Models
 
-Coming soon.
+This code is based on Moment-DETR (https://github.com/jayleicn/moment_detr) and adjusted to work on long videos.
 
+
+## Install dependencies
+
+```
+# create conda env
+conda create --name longmoment_detr python=3.7
+# activate env
+conda activate longmoment_detr
+# install pytorch
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/torch_stable.html
+# install other python packages
+pip install tqdm==4.64.1 ipython==7.34.0 easydict==1.10 tensorboard==2.11.2 tabulate==0.9.0 scikit-learn==1.0.2 pandas==1.3.5
+```
+
+## Training
+
+Under ``` moment_detr/scripts/ ``` you can find the training script.
+The training command is:
+
+```
+bash moment_detr/scripts/longmoment_detr.sh
+```
+
+The above script will train the final model (with OSG segment generation and GPT-3 query generation), using SlowFast features for the video and GPT2-xl features for the text.
+
+## Inference
+
+For testing the results of a trained model the following command needs to be run
+
+```
+bash moment_detr/scripts/eval.sh --resume PATH_TO_CKPT
+```
+where ```PATH_TO_CKPT``` is the path to the checkpoint you want to evaluate.

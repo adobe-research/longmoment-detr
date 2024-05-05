@@ -79,3 +79,9 @@ If you use this work in your research, please cite our [ICCV 2023 paper](https:/
   year={2023}
 }
 ```
+
+
+## License
+
+- The code and model are licensed under the [Adobe Research License](./LICENSE.md). The license prohibits commercial use and allows non-commercial research use. 
+- The dataset is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.

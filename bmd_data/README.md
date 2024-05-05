@@ -45,6 +45,46 @@ Here's an example of how the annotations look:
 - **duration**: Duration of the whole video in seconds.
 - **relevant_windows**: An array containing the start and end times (in seconds) of the relevant video segment for the described query.
 
+## Weights
+
+Since publishing our dataset, certain videos have become unavailable. Consequently, we have retrained our model, and you can access the updated weights [here](https://archive.org/download/bmd_weights/bmd_recent.tar.gz). If you are interested in the original weights, trained using the complete video set, they are available [here](https://archive.org/download/bmd_weights/weights_original.tar.gz).
+
+## Videos
+
+We've released the videos for this dataset. Each archive contains frames extracted at 1 frame per second from a single video.
+
+You can download the videos from the following links: 
+
+[Part 1](https://archive.org/details/bmd_videos)
+
+[Part_2](https://archive.org/details/bmd_videos_part2)
+
+To download the videos programmatically, install the ```internetarchive``` package
+
+```bash
+pip install internetarchive
+```
+
+To inspect the contents of these collections, use:
+
+```bash
+ia metadata bmd_videos
+ia metadata bmd_videos_part2
+```
+
+To download all the videos, use:
+
+```bash
+ia download bmd_videos
+ia download bmd_videos_part2
+```
+
+Alternatively, each video can be downloaded independently, using:
+
+```bash
+ia download bmd_videos {video_id}.tar.gz
+```
+
 ## Features
 
 We will provide the extracted SlowFast features for the dataset. Stay tuned!

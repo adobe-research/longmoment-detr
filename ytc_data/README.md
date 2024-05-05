@@ -31,3 +31,8 @@ Here's an example of how the annotations look:
 - **vid**: The video identifier, which can be used to reference the specific video.
 - **relevant_windows**: An array containing the start and end times (in seconds) of the relevant video segment for the described query.
 
+## Weights
+
+The YTC dataset weights can be downloaded from [here](https://archive.org/download/ytc.tar/ytc.tar.gz).
+
+The BMD pretrained weights can be downloaded from [here](https://archive.org/download/ytc.tar/pretrain_bmd.tar.gz).

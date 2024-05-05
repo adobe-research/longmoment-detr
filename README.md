@@ -23,7 +23,7 @@ The BMD dataset is curated for moment detection in long tutorial videos.
 
 The YTC dataset provides annotations for YouTube chapters in long tutorial videos, offering structured segmentations derived directly from YouTube.
 
-- **Location**:[ `ytc_data/`](./ytc_data/)
+- **Location**:[`ytc_data/`](./ytc_data/)
 - **Details**: For more information about the dataset, its structure, and content, please check the [ytc_data README](./ytc_data/README.md).
 
 ---

@@ -14,7 +14,7 @@ This repository contains the code for `LongMoment-DETR`, a method designed for m
 
 The BMD dataset is curated for moment detection in long tutorial videos.
 
-- **Location**: `bmd_data/`
+- **Location**: [`bmd_data/`](./bmd_data)
 - **Details**: For a comprehensive description of the dataset, its structure, and annotation procedure, please refer to the [bmd_data README](./bmd_data/README.md). Within the `bmd_data/`, you can also find instructions on how to download the videos, the model weights, and the extracted features.
 
 ---
@@ -23,7 +23,7 @@ The BMD dataset is curated for moment detection in long tutorial videos.
 
 The YTC dataset provides annotations for YouTube chapters in long tutorial videos, offering structured segmentations derived directly from YouTube.
 
-- **Location**: `ytc_data/`
+- **Location**:[ `ytc_data/`](./ytc_data/)
 - **Details**: For more information about the dataset, its structure, and content, please check the [ytc_data README](./ytc_data/README.md).
 
 ---

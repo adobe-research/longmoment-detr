@@ -51,7 +51,7 @@ Since publishing our dataset, certain videos have become unavailable. Consequent
 
 ## Videos
 
-We've released the videos for this dataset. Each archive contains frames extracted at 1 frame per second from a single video.
+We've released the videos for this dataset. Each tar.gz file from the collection contains frames extracted at 1 fps from a single video.
 
 You can download the videos from the following links: 
 

@@ -25,7 +25,7 @@ To correlate the `video_id` from the annotations with the actual video link, you
 ## Transcripts for Training Split
 
 For those interested in the raw transcripts from which the annotations in the training split were derived, the transcripts can be accessed at the following link:
-[Training Split Transcripts](https://drive.google.com/file/d/1Heg2D11o2cCNR9fo_LPIsvQEpXoSsQTc/view?usp=sharing)
+[Training Split Transcripts](https://archive.org/download/bmd_weights/transcripts_bmd.jsonl)
 
 ## Annotation File Structure
 

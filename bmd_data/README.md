@@ -85,6 +85,19 @@ Alternatively, each video can be downloaded independently, using:
 ia download bmd_videos {video_id}.tar.gz
 ```
 
+### Extract videos
+When you unzip a video, it will directly extract all frames into the current working directory. To organize the frames, you may prefer to create a separate directory for each video. You can do so by using the following commands:
+```bash
+mkdir {video_id}
+tar -xzvf {video_id}.tar.gz -C {video_id}
+```
+
+If you prefer to convert the .tar.gz file to a .tar file, use the following command:
+
+```bash
+gunzip {video_id}.tar.gz
+```
+
 ## Features
 
 We will provide the extracted SlowFast features for the dataset. Stay tuned!

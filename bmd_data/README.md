@@ -100,5 +100,12 @@ gunzip {video_id}.tar.gz
 
 ## Features
 
-We will provide the extracted SlowFast features for the dataset. Stay tuned!
+We provide the [Slowfast features and GPT2 features](https://archive.org/details/bmd_features). 
+
+To download the features programmatically, use:
+
+```bash
+pip install internetarchive
+ia download bmd_features
+```
 

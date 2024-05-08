@@ -53,6 +53,8 @@ Since publishing our dataset, certain videos have become unavailable. Consequent
 
 We've released the videos for this dataset. Each tar.gz file from the collection contains frames extracted at 1 fps from a single video.
 
+Additional metadata for the Behance videos can be found [here](https://archive.org/download/bmd_weights/behance_videos_metadata.tar.gz). It contains: video name, video description and the video creator name.
+
 You can download the videos from the following links: 
 
 [Part 1](https://archive.org/details/bmd_videos)
